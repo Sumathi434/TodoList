@@ -62,7 +62,8 @@ h2 {
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
 }
-.TodoItems{
+
+.TodoItems {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,11 +80,23 @@ h2 {
     margin-left: 10px;
 }
 
-.TODO img{
+.TODO img {
     width: 20px;
     height: 20px;
 }
-.TodoItems.completed{
+
+.TodoItems.completed {
     text-decoration: line-through;
     text-decoration-color: orangered;
+}
+
+/* mobile responsive*/
+@media screen and (max-width: 768px) {
+    body {
+        background: navy;
+    }
+
+    .container {
+        width: 370px;
+    }
 }
